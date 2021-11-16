@@ -1,0 +1,117 @@
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 5;
+  top: 5rem;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: 6px 0 5px -2px rgb(197, 196, 196);
+  font-family: Lato;
+
+}
+
+.sidenav a {
+  padding: 15px 10px 10px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  font-weight: 700;
+  color: #52575C;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #4878df;
+}
+
+.Sidenav-icons{
+  padding: 0 7px 0 0;
+  background: none;
+}
+
+LineStyle{
+  border: 1px solid #E8E8E8;
+}
+ 
+.dropdown {
+    float: left;
+    overflow: hidden;
+    padding-bottom: 10px;
+    
+  }
+
+  .dropbtn{
+    height: 44px;
+    width: 100x;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px   rgb(110, 109, 109);
+    border: none;
+   }
+  
+  .dropdown .dropbtn {
+    cursor: pointer;
+    color: rgb(10, 8, 8);
+    padding:3px 8px 3px 16px;
+    margin-left: 16px;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+  
+
+  } 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    padding: 16px 16px;
+    box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 16px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+  }
+ 
+  .dropdown-content a:hover {
+    background-color: rgb(173, 173, 173);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .sidenav h2{
+    
+    padding: 6px 6px 0px 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;   
+    letter-spacing: 0.1px;
+    color: #A0A4A8;
+  }  
+.float-bottom-menu{
+  margin-top: 100px;
+}

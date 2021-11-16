@@ -1,85 +1,31 @@
 body{
   margin:0;
-  background-color: #F6F8FB;
+  background-color: #EBF0FF;
 
 }
-.curenet-image{
-  height:60px;
-
-}
-
-.sidenav {
-    height: 100%;
-    width: 170px;
-    position: fixed;
-    z-index: 5;
-    top: 5rem;
-    left: 0;
-    background-color: rgb(255, 255, 255);
-    overflow-x: hidden;
-    padding-top: 20px;
-    border: 1px solid rgb(255, 255, 255);
-    box-shadow: 6px 0 5px -2px rgb(197, 196, 196);
-  }
-
-  
-.sidenav a {
-    padding: 20px 8px 20px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #161414;
-    display: block;
-}
-.sidenav a:hover {
-    color: #4878df;
-  }
-
 .appointments-list, th, td{
-    /* border-bottom: 2px solid #ddd; */
-    text-align: left;
-    height: 56px;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 30px;
-    
-}
-table th:first-child{
-  border-radius: 10px 0 0 10px;
-}
-
-table th:last-child{
-  border-radius:0 10px 10px 0;
-}
-
-.appointments-list thead{
-  border-collapse: collapse;
-  border-top-left-radius: 7px ;
-  background: #E8E8E8;
-  /* box-shadow: 0px 1px 1px 1px rgb(197, 196, 196); */
+  
+  text-align: left;
+  height: 56px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  font-size: 14px;
-  /* line-height: 20px;
-  letter-spacing: 0.1px; */
+  padding-left: 25px;
+  
 }
-
 .List-body{
   border-collapse: collapse;
-  border-radius: 7px ;
   background-color: white;
-  border-bottom-left-radius: 9px;
-  font-size: 14px;
+  font-size: 8px;
   line-height: 20px;
   letter-spacing: 0.1px;
 } 
 
-
 .appointments-list{
-    border-collapse: collapse;
-    width: 100%;
-    padding: 10px 5px 10px;
-    margin-left: 10px;
-    border-radius: 9px;
-    
+  border-collapse: collapse;
+  width: 100%;
+  padding: 10px 5px 10px;
+  margin-left: 10px;
+  border-radius: 9px;
+  
 }
 
 .appointments-list.img{
@@ -89,128 +35,16 @@ table th:last-child{
 
 .Container{
   
-    margin-left: 160px; /* Same as the width of the sidenav */
-    margin-top: 70px;
-    padding: 0px 40px;
-    font-size: 20px; /* Increased text to enable scrolling */
+    margin-left: 200px; /* Same as the width of the sidenav */
+    margin-top: 16px;
+    
+    
 
 }
-.list-elements h2{
+.Container h2{
   
   font-weight: bold;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 46px;
   letter-spacing: 0.2px;
-}
-
-LineStyle{
-    height:'2px';
-    border-width:'0';
-    color:#ddd;
-    background-color:rgb(192, 187, 187);
-}
-.topnav {
-   overflow: hidden;
-  background-color: #F6F8FB;
-  z-index: 2;
-  height: 60px;
-  border: 1px solid rgb(226, 224, 224);
-  box-shadow: 4px 3px 3px -1px rgb(197, 196, 196);
-  
-}
-
-.topnav a {
-  float: left;
-
-}
-
-.topnav a:hover {
-  background-color: rgb(61, 139, 228);
-  color: black;
-  
-  
-}
-
-.topnav-right {
-  float: right;
-  
-}
-
-.datetime{
-  padding:-5px 10rem;
-  width: auto;
-  display: inline-block;
-  border-radius:2px;
-  border: none;
-}
-
-.user{
-  display: inline-block;
-}
-
-.user img{
-  height: 50px;
-  width:50px;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  cursor: pointer;
-  font-size: 16px;  
-  outline: none;
-  color: rgb(10, 8, 8);
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-  /*border: none;*/
-}
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: rgb(61, 139, 228);
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  padding: 14px 16px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  font:16px;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.dropbtn img{
-  height: 35px;
-  width: 35px;
-  position: absolute;
-  top: 25px;
-}
-.sidenav h2{
-  font-size: 15px;
-  padding:0px 20px ;
-  color: grey;
-}
-.dropbtn{
-  border: 1px black;
 }
